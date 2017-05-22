@@ -11,4 +11,16 @@ public class Aresta {
         this.v2 = v2;
         this.peso = peso;
     }
+
+    public float getPeso () {
+        return peso;
+    }
+
+    public Vertice getV1 () {
+        return v1;
+    }
+
+    public Vertice getV2 () {
+        return v2;
+    }
 }
